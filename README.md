@@ -3,7 +3,7 @@ Deep learning models
 
 The basemodels prior to manipulation came from UNR ARA lab and Chuong Le. The models and image processing have been manipulated to work for the rust dataset and ENet was added into the models to train. 
 
-To start the vitual enviroment:
+To start the vitual enviroment:/n
 python3 -m keras_segmentation predict_test --checkpoints_path="results/annette/checkpoints/checkpoint-389-0.9872-.hdf5" --input_path="dataset/rust_img/" --output_path="results/annette/imageOutput/"
 
 
